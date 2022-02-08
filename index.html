@@ -31,19 +31,21 @@
       />
 
       <label for="base">Base Color</label>
-      <input id="base" type="color" name="base" value="#00ccff" />
+      <input id="base" type="color" name="base" value="#FFBB00" />
     </div>
 
     <img
       src="https://images.unsplash.com/photo-1507992781348-310259076fe0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      width="640"
+      height="644"
     />
 
     <style>
       /*
-      misc styles, nothing to do with CSS variables
-    */
+        misc styles, nothing to do with CSS variables
+      */
       :root {
-        --base: rgb(0, 204, 255);
+        --base: #ffbb00;
         --spacing: 10px;
         --blur: 10px;
       }
@@ -60,15 +62,15 @@
 
       body {
         text-align: center;
-        background: #3778a6;
+        background: linear-gradient(rgb(255, 106, 0), white);
         color: white;
         font-family: "helvetica neue", sans-serif;
         font-weight: 100;
-        font-size: 50px;
+        font-size: 40px;
       }
 
       .controls {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
       }
 
       input {
